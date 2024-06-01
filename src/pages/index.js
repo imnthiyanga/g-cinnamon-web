@@ -5,6 +5,8 @@ import Products from "@/components/Products";
 import Process from "@/components/Process";
 import Aboutus from "@/components/aboutus";
 import Team from "@/components/Team";
+import Footer from "@/components/footer";
+import ContactForm from "@/components/contactform";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +18,8 @@ export default function Home() {
       <Products/>
       <Aboutus/>
       <Team/>
+      <ContactForm/>
+      <Footer/>
     </div>
   );
 }

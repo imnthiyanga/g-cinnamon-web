@@ -4,27 +4,27 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-  { name: 'Our Products', href: '#' },
-  { name: 'Process', href: '#' },
-  { name: 'About Us', href: '#' },
-  { name: 'Contact Us', href: '#' },
+  { name: 'Our Products', href: '#products' },
+  { name: 'Process', href: '#process' },
+  { name: 'About Us', href: '#aboutus' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div id='hero' className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <div className="mx-auto max-w-7xl">
           <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
             <nav className="flex items-center justify-between lg:justify-start" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Golden Cinnamon</span>
                 <img
                   alt="Your Company"
-                  className="h-8 w-auto"
-                  src="/img/cinn.jpg"
+                  className="h-14 w-auto"
+                  src="/img/logo.png"
                 />
               </a>
               <button
@@ -79,14 +79,6 @@ export default function Hero() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
-                  </a>
-                </div>
               </div>
             </div>
           </Dialog.Panel>
@@ -107,15 +99,6 @@ export default function Hero() {
 
             <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                <div className="hidden sm:mb-10 sm:flex">
-                  <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
-                    <a href="#" className="whitespace-nowrap font-semibold text-indigo-600">
-                      <span className="absolute inset-0" aria-hidden="true" />
-                      Read more <span aria-hidden="true">&rarr;</span>
-                    </a>
-                  </div>
-                </div>
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                  GOLDEN CINNAMON
                 </h1>
@@ -125,12 +108,12 @@ export default function Hero() {
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
-                    href="#"
+                    href="#products"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
-                    Get started
+                    Shop Now
                   </a>
-                  <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                  <a href="#process" className="text-sm font-semibold leading-6 text-gray-900">
                     Learn more <span aria-hidden="true">→</span>
                   </a>
                 </div>
