@@ -9,7 +9,7 @@ const features = [
   
   export default function Process() {
     return (
-      <div className="bg-white">
+      <div id="process" className="bg-white">
         <div aria-hidden="true" className="relative mt-20">
           <img
             src="/img/plant.jpg"

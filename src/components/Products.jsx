@@ -82,7 +82,7 @@ const products = [
   
   export default function Products() {
     return (
-      <div className="bg-white">
+      <div id="products" className="bg-white">
         
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 pt-10">
         <h2 className="text-black text-4xl font-bold tracking-tight sm:text-4xl pb-5 ">Products</h2>
