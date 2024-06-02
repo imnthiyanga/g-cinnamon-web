@@ -1,4 +1,9 @@
+
 import { FaMapMarkerAlt, FaEnvelope, } from "react-icons/fa";
+import React from "react";
+import emailjs from "@emailjs/browser";
+
+
 
 
 const MyMapComponent = (props) => (
@@ -13,6 +18,33 @@ const MyMapComponent = (props) => (
   ></iframe>
 );
 
+const handleSubmit = async (e) => {
+  e.preventDefault();
+ 
+
+  emailjs.send(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, {
+    to_name: "G_Cinnamon",
+    from_name: e.target.email.value,
+    subject: e.target.subject.value,
+    message: e.target.message.value,
+  }, process.env.NEXT_PUBLIC_USER_ID)
+  .then((response) => {
+    if (response.status === 200) {
+      alert('Message sent successfully');
+    } else {
+      alert('Failed to send message');
+    }
+  })
+  .catch((error) => {
+    console.error('EmailJS error:', error);
+    console.log(process.env.NEXT_PUBLIC_SERVICE_ID);
+    console.log(process.env.NEXT_PUBLIC_TEMPLATE_ID);
+    console.log(process.env.NEXT_PUBLIC_USER_ID);
+    alert('Failed to send message');
+  });
+};
+  
+
 function ContactForm() {
   return (
     <div id="contact" className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -23,7 +55,7 @@ function ContactForm() {
         </div>
 
         <div className="mt-16 flex flex-col gap-10 sm:gap-y-15 lg:flex-row">
-          <form action="#" method="POST" className="lg:flex-auto">
+          <form action="#" method="POST" className="lg:flex-auto" onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 ">
               <div>
                 <label
