@@ -7,7 +7,7 @@ const people = [
       bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
     },
     {
-        name: 'Leonard Krasner',
+        name: 'John Kenrt',
         role: 'Senior Designer',
         imageUrl:
           '/img/man1.jpg',
