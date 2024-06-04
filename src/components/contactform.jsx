@@ -51,7 +51,7 @@ function ContactForm() {
       <div className="mx-auto max-w-xl lg:max-w-5xl ">
         <div className="flex items-center">
           <FaEnvelope className="text-4xl text-black mr-4"/>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Let's Talk</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Let&apos;s Talk</h2>
         </div>
 
         <div className="mt-16 flex flex-col gap-10 sm:gap-y-15 lg:flex-row">
