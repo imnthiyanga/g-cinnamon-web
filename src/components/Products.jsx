@@ -15,35 +15,35 @@
 const products = [
     {
       id: 1,
-      name: 'Cinnamon Powder',
+      name: 'Cinnamon Leaves',
       href: '#',
       price: '$48',
-      imageSrc: '/img/products/powder.jpg',
-      imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      imageSrc: '/img/products/leaves2.jpeg',
+      imageAlt: 'Powder.',
     },
     {
       id: 2,
-      name: 'Cinnamon Oil',
+      name: 'Cinnamon Seeds',
       href: '#',
       price: '$35',
-      imageSrc: '/img/products/oil.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      imageSrc: '/img/products/seeds.jpeg',
+      imageAlt: 'Seeds.',
     },
     {
       id: 3,
       name: 'Cinnamon Sticks',
       href: '#',
       price: '$89',
-      imageSrc: '/img/products/stcks.jpg',
-      imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+      imageSrc: '/img/products/sticks2.jpeg',
+      imageAlt: 'Sticks.',
     },
     {
       id: 4,
-      name: 'Cinnamon Powder',
+      name: 'Cinnamon Leaves',
       href: '#',
       price: '$35',
-      imageSrc: '/img/products/powder.jpg',
-      imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+      imageSrc: '/img/products/leaves.jpeg',
+      imageAlt: '.',
     },
     {
         id: 5,
@@ -51,7 +51,7 @@ const products = [
         href: '#',
         price: '$48',
         imageSrc: '/img/products/oil2.jpg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        imageAlt: '.',
         },
         {
         id: 6,
@@ -59,7 +59,7 @@ const products = [
         href: '#',
         price: '$35',
         imageSrc: '/img/products/powder.jpg',
-        imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+        imageAlt: '.',
         },
         {
         id: 7,
@@ -67,7 +67,7 @@ const products = [
         href: '#',
         price: '$89',
         imageSrc: '/img/products/powder.jpg',
-        imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+        imageAlt: '.',
         },
         {
         id: 8,
@@ -75,7 +75,7 @@ const products = [
         href: '#',
         price: '$35',
         imageSrc: '/img/products/powder.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageAlt: '.',
     }
     // More products...
   ]

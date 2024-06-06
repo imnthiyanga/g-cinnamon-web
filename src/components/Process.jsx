@@ -12,7 +12,7 @@ const features = [
       <div id="process" className="bg-white">
         <div aria-hidden="true" className="relative mt-20">
           <img
-            src="/img/plant.jpg"
+            src="/img/process.jpeg"
             alt=""
             className="h-96 w-full object-cover object-center rounded-t-lg"
           />
