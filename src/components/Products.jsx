@@ -15,7 +15,7 @@
 const products = [
     {
       id: 1,
-      name: 'Earthen Bottle',
+      name: 'Cinnamon Powder',
       href: '#',
       price: '$48',
       imageSrc: '/img/products/powder.jpg',
@@ -23,23 +23,23 @@ const products = [
     },
     {
       id: 2,
-      name: 'Nomad Tumbler',
+      name: 'Cinnamon Oil',
       href: '#',
       price: '$35',
-      imageSrc: '/img/products/powder.jpg',
+      imageSrc: '/img/products/oil.jpg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
       id: 3,
-      name: 'Focus Paper Refill',
+      name: 'Cinnamon Sticks',
       href: '#',
       price: '$89',
-      imageSrc: '/img/products/powder.jpg',
+      imageSrc: '/img/products/stcks.jpg',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
       id: 4,
-      name: 'Machined Mechanical Pencil',
+      name: 'Cinnamon Powder',
       href: '#',
       price: '$35',
       imageSrc: '/img/products/powder.jpg',
@@ -47,10 +47,10 @@ const products = [
     },
     {
         id: 5,
-        name: 'Earthen Bottle',
+        name: 'Cinnamon Oil',
         href: '#',
         price: '$48',
-        imageSrc: '/img/products/powder.jpg',
+        imageSrc: '/img/products/oil2.jpg',
         imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
         },
         {
