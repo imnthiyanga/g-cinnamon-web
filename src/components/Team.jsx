@@ -1,17 +1,17 @@
 const people = [
     {
       name: 'Rahal Seekkuarachchi',
-      role: 'Senior Designer',
+      role: '',
       imageUrl:
         '/img/man1.jpg',
-      bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
+      bio: '',
     },
     {
         name: 'Dihan Madhusankha',
-        role: 'Senior Designer',
+        role: '',
         imageUrl:
           '/img/man1.jpg',
-        bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
+        bio: '',
       },
     // More people...
   ]
