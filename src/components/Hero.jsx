@@ -27,7 +27,7 @@ export default function Hero() {
                   CINNAMON PARADISE
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Pure assense from Sri Lanka's Lush Lands
+                  Pure assense from Sri Lanka&apos;s Lush Lands
                 </p>
                 
                 <div className="mt-10 flex items-center gap-x-6">
