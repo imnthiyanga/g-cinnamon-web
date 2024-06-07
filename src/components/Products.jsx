@@ -15,66 +15,66 @@
 const products = [
     {
       id: 1,
-      name: 'Cinnamon Leaves',
+      name: 'Cinnamon Sticks',
       href: '#',
-      price: '$48',
-      imageSrc: '/img/products/leaves2.jpeg',
-      imageAlt: 'Powder.',
+      price: 'H1, H2,M00000, M4, M5, C4, C5, C55P',
+      imageSrc: '/img/products/sticks2.jpeg',
+      imageAlt: 'Cinnamon Sticks.',
     },
     {
       id: 2,
-      name: 'Cinnamon Seeds',
+      name: 'Cinnamon Qullings',
       href: '#',
-      price: '$35',
-      imageSrc: '/img/products/seeds.jpeg',
-      imageAlt: 'Seeds.',
+      price: 'Quillings no.1, Quillings no.2, Chips',
+      imageSrc: '/img/products/quilling.jpeg',
+      imageAlt: 'Cinnamon Qullings.',
     },
     {
       id: 3,
-      name: 'Cinnamon Sticks',
+      name: 'Cinnamon Powder',
       href: '#',
-      price: '$89',
-      imageSrc: '/img/products/sticks2.jpeg',
+      price: 'H1, H2,M00000, M4, M5, C4, C5, C55P',
+      imageSrc: '/img/products/powder.jpg',
       imageAlt: 'Sticks.',
     },
     {
       id: 4,
-      name: 'Cinnamon Leaves',
+      name: 'Cinnamon Oil',
       href: '#',
-      price: '$35',
-      imageSrc: '/img/products/leaves.jpeg',
-      imageAlt: '.',
+      price: 'H1, H2,M00000, M4, M5, C4, C5, C55P',
+      imageSrc: '/img/products/oil2.jpg',
+      imageAlt: 'Cinnamon Oil.',
     },
     {
         id: 5,
-        name: 'Cinnamon Oil',
+        name: 'Cinnamon Leaves',
         href: '#',
-        price: '$48',
-        imageSrc: '/img/products/oil2.jpg',
-        imageAlt: '.',
+        price: 'Not Extracted.',
+        imageSrc: '/img/products/leaves2.jpeg',
+        imageAlt: 'Cinnamon Leaves.',
         },
         {
         id: 6,
-        name: 'Nomad Tumbler',
+        name: 'Cinnamon Wood',
         href: '#',
-        price: '$35',
+        price: 'Dried',
         imageSrc: '/img/products/powder.jpg',
-        imageAlt: '.',
+        imageAlt: 'Cinnamon Wood.',
         },
         {
         id: 7,
-        name: 'Focus Paper Refill',
+        name: 'Cinnamon Tea',
         href: '#',
-        price: '$89',
+        price: 'Ceylon Tea & Sri Lankan Spices included',
         imageSrc: '/img/products/powder.jpg',
         imageAlt: '.',
         },
         {
         id: 8,
-        name: 'Machined Mechanical Pencil',
+        name: 'Cinnamon Seeds',
         href: '#',
-        price: '$35',
-        imageSrc: '/img/products/powder.jpg',
+        price: 'H1, H2,M00000, M4, M5, C4, C5, C55P',
+        imageSrc: '/img/products/seeds.jpeg',
         imageAlt: '.',
     }
     // More products...
@@ -87,7 +87,7 @@ const products = [
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 pt-10">
         <h2 className="text-black text-4xl font-bold tracking-tight sm:text-4xl pb-5 ">Products</h2>
         <p className="text-lg mb-4 text-gray-400 ">
-            We’re a dynamic group of individuals who are passionate about what we do.
+          We offer a wide range of Cinnamon products. we are able to supply any quantity of Cinnamon products as per your requirement.
           </p>   
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
