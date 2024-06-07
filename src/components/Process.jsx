@@ -1,10 +1,16 @@
 const features = [
-    { name: 'The Cinnamon Tree', description: 'Designed by Good Goods, Inc.' },
-    { name: 'Cultivation', description: 'Solid walnut base with rare earth magnets and polycarbonate add-ons.' },
-    { name: 'Harvesting', description: 'Hand sanded and finished with natural oil' },
-    { name: 'Processing', description: 'Pen Tray, Phone Tray, Small Tray, Large Tray, Sticky Note Holder' },
-    { name: 'Quality Control', description: 'Detail the steps taken to ensure the quality and purity of the cinnamon.' },
-    { name: 'Sustainability', description: 'Explain the practices used to ensure sustainable cinnamon farming.' },
+    { name: 'The Cinnamon Tree', description: (
+      <>
+        <p>Varieties - Ceylon Cinnoman (Cinnamomum zeylanicum).</p>
+        <p>The Harmonize System (HS) code - 09061100</p>
+        <p>World best Cinnamon variety which also called as True Cinnamon</p>
+      </>
+    ) },
+    { name: 'Cultivation', description: 'All the plats are cultivated under the standard conditions in Down-South Sri Lanka. Organic fertilizers or standard chemical fertilizers have benn used in standard level' },
+    { name: 'Harvesting', description: 'Trees are cut-down by well experienced and trained workers in 100% traditional based which allows maintain healthy growth cycles of the Cynnamon tree. ' },
+    { name: 'Processing', description: 'Overoll processing is done by traditional methods (Hand made)' },
+    { name: 'Quality Control', description: 'We do not use Sulphur, preservatives or any other chemicals. Dried upto optimem level and well packed.'  },
+    { name: 'Sustainability', description: 'We will ensure ecofriendly forming, community engagement environmental protection sustainable harvesting eco-friendly packaging and sustainable supply chain. As our motto we contol all the things before explained, because we keep the ownership and lands to end products. So we will ensure uality of the product. ' },
   ]
   
   export default function Process() {
@@ -21,9 +27,9 @@ const features = [
   
         <div className="relative mx-auto -mt-12 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Process of Production</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From our lush lands to your table. </h2>
             <p className="mt-4 text-gray-500">
-            Provide a short introduction about the significance of cinnamon, its historical use, and its importance in various cultures.
+            We export from microscale quantities to Tons of Cinnamon directly from our lush lands.
             </p>
           </div>
   

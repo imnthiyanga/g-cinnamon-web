@@ -1,13 +1,13 @@
 const people = [
     {
-      name: 'Leonard Krasner',
+      name: 'Rahal Seekkuarachchi',
       role: 'Senior Designer',
       imageUrl:
         '/img/man1.jpg',
       bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
     },
     {
-        name: 'John Kenrt',
+        name: 'Dihan Madhusankha',
         role: 'Senior Designer',
         imageUrl:
           '/img/man1.jpg',
@@ -23,8 +23,7 @@ const people = [
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our Team</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
-              best results.
+              We’re here to revolutionize the Cinnamon industry with the well educated Engineering background.
             </p>
           </div>
           <ul
