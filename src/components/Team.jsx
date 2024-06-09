@@ -1,17 +1,17 @@
 const people = [
     {
       name: 'Rahal Seekkuarachchi',
-      role: '',
+      role: 'Rloe',
       imageUrl:
         '/img/man1.jpg',
-      bio: '',
+      bio: 'Bio',
     },
     {
         name: 'Dihan Madhusankha',
-        role: '',
+        role: 'Role',
         imageUrl:
           '/img/man1.jpg',
-        bio: '',
+        bio: 'Bio',
       },
     // More people...
   ]
@@ -34,7 +34,7 @@ const people = [
               <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
                 <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" />
                 <div className="flex-auto">
-                  <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
+                  <h3 className="text-xl font-medium leading-8 tracking-tight text-gray-900">{person.name}</h3>
                   <p className="text-base leading-7 text-gray-600">{person.role}</p>
                   <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p>
                 </div>
