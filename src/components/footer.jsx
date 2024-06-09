@@ -72,8 +72,15 @@ const navigation = {
   
   export default function Footer() {
     return (
-      <footer className="bg-gray-200">
+      <footer className="bg-gray-300">
         <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+          <div className="flex justify-center mb-1">
+          <img className="h-20 " src="/img/logo.png" alt="Hypercube" />
+          </div>
+          <div className="flex justify-center mb-10">
+          <p className="text-xs text-gray-500">CINNAMON PARADICE</p>
+          </div>
+          
           <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
             {navigation.main.map((item) => (
               <div key={item.name} className="pb-6">
