@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 const features = [
     { name: 'The Cinnamon Tree', description: (
       <>
@@ -8,10 +10,28 @@ const features = [
     ) },
     { name: 'Cultivation', description: 'All the plats are cultivated under the standard conditions in Down-South Sri Lanka. Organic fertilizers or standard chemical fertilizers have benn used in standard level' },
     { name: 'Harvesting', description: 'Trees are cut-down by well experienced and trained workers in 100% traditional based which allows maintain healthy growth cycles of the Cynnamon tree. ' },
-    { name: 'Processing', description: 'Overoll processing is done by traditional methods (Hand made)' },
-    { name: 'Quality Control', description: 'We do not use Sulphur, preservatives or any other chemicals. Dried upto optimem level and well packed.'  },
+    { name: 'Processing', description: 'The entire process is carried out using traditional methods, with all steps being done by hand. This meticulous approach ensures that the quality and authenticity of the cinnamon are preserved.' },
+    { name: 'Quality Control', description: 'We do not use sulphur, preservatives, or any other chemicals. The cinnamon is dried to the optimal level and carefully packed. This ensures that our product remains natural and retains its full flavor and aroma.'  },
     { name: 'Sustainability', description: 'We will ensure ecofriendly forming, community engagement environmental protection sustainable harvesting eco-friendly packaging and sustainable supply chain. As our motto we contol all the things before explained, because we keep the ownership and lands to end products. So we will ensure uality of the product. ' },
   ]
+
+  function Description({ children }) {
+    const [isExpanded, setIsExpanded] = useState(false);
+  
+    const text = isExpanded || typeof children !== 'string' ? children : `${children.slice(0, 100)}...`;
+    
+    
+    return (
+      <div>
+        {text}
+        {typeof children === 'string' && (
+        <button className='text-blue-700' onClick={() => setIsExpanded(!isExpanded)}>
+          {isExpanded ? 'Show Less' : 'More'}
+        </button>
+      )}
+      </div>
+    );
+  }
   
   export default function Process() {
     return (
@@ -37,7 +57,9 @@ const features = [
             {features.map((feature) => (
               <div key={feature.name} className="border-t border-gray-200 pt-4">
                 <dt className="font-medium text-gray-900">{feature.name}</dt>
-                <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
+                <dd className="mt-2 text-sm text-gray-500">
+                <Description>{feature.description}</Description>
+                </dd>
               </div>
             ))}
           </dl>

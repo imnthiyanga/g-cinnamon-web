@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Aboutus() {
   return (
@@ -25,6 +25,27 @@ export default function Aboutus() {
                 alt=""
                 className="object-cover object-center"
               />
+            </div>
+          </div>
+        </div>
+        <div className="mx-auto max-w-2xl px-4 lg:max-w-none mt-20">
+          <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
+            <div className="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-gray-100">
+              <img
+                src="/img/cinnamon.jpg"
+                alt=""
+                className="object-cover object-center"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                Premium Packaging
+              </h2>
+              <p className="mt-4 text-gray-500">
+                If you are an owner of or suplier for Supermarket chain. We'll
+                export our products with seperate packaging as you wish. For
+                small quantities weoffer these packaging options.
+              </p>
             </div>
           </div>
         </div>
