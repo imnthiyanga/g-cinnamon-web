@@ -18,7 +18,7 @@ const products = [
     name: "Cinnamon Sticks",
     href: "#",
     price: "H1, H2,M00000, M4, M5, C4, C5, C55P",
-    imageSrc: "/img/products/sticks.png",
+    imageSrc: "/img/products/sticks.jpg",
     imageAlt: "Cinnamon Sticks.",
   },
   {
@@ -26,7 +26,7 @@ const products = [
     name: "Cinnamon Qullings",
     href: "",
     price: "Quillings no.1, Quillings no.2, Chips",
-    imageSrc: "/img/products/quilings.png",
+    imageSrc: "/img/products/quillings.jpg",
     imageAlt: "Cinnamon Qullings.",
   },
   {
@@ -34,7 +34,7 @@ const products = [
     name: "Cinnamon Powder",
     href: "",
     price: "Pure Cinnamon Powder, Not mixed with Sulphur.",
-    imageSrc: "/img/products/powder.png",
+    imageSrc: "/img/products/powder.jpg",
     imageAlt: "Sticks.",
   },
   {
@@ -42,7 +42,7 @@ const products = [
     name: "Cinnamon Oil",
     href: "#",
     price: "Not mixed with Kerosine any other oils.",
-    imageSrc: "/img/products/oil.png",
+    imageSrc: "/img/products/oil.jpg",
     imageAlt: "Cinnamon Oil.",
   },
   {
@@ -50,7 +50,7 @@ const products = [
     name: "Cinnamon Leaves",
     href: "#",
     price: "Not Extracted.",
-    imageSrc: "/img/products/leaves.png",
+    imageSrc: "/img/products/leaves.jpg",
     imageAlt: "Cinnamon Leaves.",
   },
   {
@@ -58,7 +58,7 @@ const products = [
     name: "Cinnamon Wood",
     href: "#",
     price: "Dried",
-    imageSrc: "/img/products/wood.png",
+    imageSrc: "/img/products/wood.jpg",
     imageAlt: "Cinnamon Wood.",
   },
   {
@@ -66,7 +66,7 @@ const products = [
     name: "Cinnamon Tea",
     href: "#",
     price: "Ceylon Tea & Sri Lankan Spices included",
-    imageSrc: "/img/products/tea.png",
+    imageSrc: "/img/products/tea.jpg",
     imageAlt: ".",
   },
   {
@@ -74,7 +74,7 @@ const products = [
     name: "Cinnamon Seeds",
     href: "#",
     price: "Handpicked and Dried.",
-    imageSrc: "/img/products/seeds.png",
+    imageSrc: "/img/products/seeds.jpg",
     imageAlt: ".",
   },
   // More products...
@@ -84,14 +84,14 @@ export default function Products() {
   return (
     <div id="products" className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 pt-10">
-        <h2 className="text-black text-4xl font-bold tracking-tight sm:text-4xl pb-5 ">
+        <h2 className="text-black text-4xl font-bold tracking-tight sm:text-4xl pb-5 text-center ">
           Products
         </h2>
-        <p className="text-lg mb-4 text-gray-500 ">
+        <p className="text-lg mb-4 text-gray-500 text-center">
           We offer a wide range of Cinnamon products. we are able to supply any
           quantity of Cinnamon products as per your requirement.
         </p>
-        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mt-20">
           {products.map((product) => (
             <a
               key={product.id}

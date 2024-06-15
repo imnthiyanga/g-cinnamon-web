@@ -67,9 +67,9 @@ export default function Team() {
                 <p className="text-base leading-7 text-gray-600">
                   {person.role}
                 </p>
-                <p className="mt-6 text-base leading-7 text-gray-600">
-                  <Description>{person.bio}</Description>
-                </p>
+                <div className="mt-6 text-base leading-7 text-gray-600">
+                <Description>{person.bio}</Description>
+              </div>
                 
               </div>
             </li>
