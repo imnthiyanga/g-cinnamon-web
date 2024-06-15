@@ -4,13 +4,13 @@ import emailjs from "@emailjs/browser";
 
 const MyMapComponent = (props) => (
   <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.7921349441076!2d79.89829207467457!3d6.795127593202144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae245416b7f34b5%3A0x7bd32721ab02560e!2sUniversity%20of%20Moratuwa!5e0!3m2!1sen!2slk!4v1714599860835!5m2!1sen!2slk"
+    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3967.4052662570366!2d80.61083817498918!3d6.075962793910149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDQnMzMuNSJOIDgwwrAzNic0OC4zIkU!5e0!3m2!1sen!2slk!4v1718459372587!5m2!1sen!2slk"
     width="400"
     height="300"
     className="w-full h-full"
-    allowFullScreen=""
+    allowfullscreen=""
     loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
+    referrerpolicy="no-referrer-when-downgrade"
   ></iframe>
 );
 
@@ -136,7 +136,7 @@ function ContactForm() {
                     name="subject"
                     type="text"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
-                    placeholder="Regarding Paper Submission"
+                    placeholder="Regarding bulk order of Cinnamon sticks."
                   />
                 </div>
               </div>
@@ -180,13 +180,12 @@ function ContactForm() {
               <h2 className="text-xl text-gray-900 text-left ">
                 Galagodawatta, Karaputugala, Kamburupitiya, Sri Lanka.
               </h2>
-              
             </div>
             <h2 className="text-sm text-gray-900 text-left">Zip code: 81106</h2>
             <div className="lg:mt-6 lg:w-80 lg:flex-none">
               <MyMapComponent
                 isMarkerShown
-                googleMapURL="https://www.google.com/maps/place/University+of+Moratuwa/@6.7950132,79.8989601,17.45z/data=!4m6!3m5!1s0x3ae245416b7f34b5:0x7bd32721ab02560e!8m2!3d6.7951276!4d79.900867!16zL20vMDVjN3Rn?entry=ttu"
+                googleMapURL="https://maps.app.goo.gl/uJWbqzSwfcsPPWzs7"
                 loadingElement={<div style={{ height: `100%` }} />}
                 containerElement={<div style={{ height: `400px` }} />}
                 mapElement={<div style={{ height: `100%` }} />}
@@ -195,16 +194,14 @@ function ContactForm() {
             <div className="flex items-center mt-8">
               <FaEnvelope className="text-xl text-black mr-2" />
               <h2 className="text-xl text-gray-900 text-left ">
-               padman@gmail.com
+                padman@gmail.com
               </h2>
-
             </div>
             <div className="flex items-center mt-8">
               <FaPhone className="text-xl text-black mr-2" />
               <h2 className="text-xl text-gray-900 text-left ">
-               +94 764 281 060
+                +94 764 281 060
               </h2>
-              
             </div>
           </div>
         </div>

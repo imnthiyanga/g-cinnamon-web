@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const people = [
   {
     name: "Rahal Seekkuarachchi",
@@ -14,7 +16,27 @@ const people = [
   // More people...
 ];
 
+function Description({ children }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const text = isExpanded || typeof children !== 'string' ? children : `${children.slice(0, 300)}...`;
+  
+  
+  return (
+    <div>
+      {text}
+      {typeof children === 'string' && (
+      <button className='text-blue-700' onClick={() => setIsExpanded(!isExpanded)}>
+        {isExpanded ? 'Show Less' : 'More'}
+      </button>
+    )}
+    </div>
+  );
+}
+
 export default function Team() {
+
+  
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -46,8 +68,9 @@ export default function Team() {
                   {person.role}
                 </p>
                 <p className="mt-6 text-base leading-7 text-gray-600">
-                  {person.bio}
+                  <Description>{person.bio}</Description>
                 </p>
+                
               </div>
             </li>
           ))}

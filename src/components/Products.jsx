@@ -24,15 +24,15 @@ const products = [
   {
     id: 2,
     name: "Cinnamon Qullings",
-    href: "#",
+    href: "",
     price: "Quillings no.1, Quillings no.2, Chips",
-    imageSrc: "/img/products/quillings.png",
+    imageSrc: "/img/products/quilings.png",
     imageAlt: "Cinnamon Qullings.",
   },
   {
     id: 3,
     name: "Cinnamon Powder",
-    href: "#",
+    href: "",
     price: "Pure Cinnamon Powder, Not mixed with Sulphur.",
     imageSrc: "/img/products/powder.png",
     imageAlt: "Sticks.",
@@ -58,7 +58,7 @@ const products = [
     name: "Cinnamon Wood",
     href: "#",
     price: "Dried",
-    imageSrc: "/img/products/firewood.png",
+    imageSrc: "/img/products/wood.png",
     imageAlt: "Cinnamon Wood.",
   },
   {
@@ -95,7 +95,6 @@ export default function Products() {
           {products.map((product) => (
             <a
               key={product.id}
-              href={product.href}
               className="group transform transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-105"
             >
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
