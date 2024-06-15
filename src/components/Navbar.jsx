@@ -20,8 +20,8 @@ export default function Navbar() {
         <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
           <nav className="flex items-center justify-between lg:justify-start" aria-label="Global">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Golden Cinnamon</span>
-              <img alt="Your Company" className="h-14 w-auto" src="/img/logo.png" />
+              <span className="sr-only">Cinnamon Paradise</span>
+              <img alt="Cinnamon Paradise" className="h-14 w-auto mb-2" src="/img/logo.png" />
             </a>
             <button
               type="button"
@@ -52,7 +52,7 @@ export default function Navbar() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-1/2 overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Cinnamon Paradise</span>
               <img className="h-8 w-auto" src="/img/logo.png" alt="" />
             </a>
             <button
