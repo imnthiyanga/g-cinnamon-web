@@ -56,7 +56,7 @@ function Aboutus() {
                 Premium Packaging
               </h2>
               <p className="mt-4 text-gray-500">
-                If you are an owner of or supplier for Supermarket chain. We'll
+                If you are an owner of or supplier for Supermarket chain. We&apos;ll
                 export our products with separate packaging as you wish. For
                 small quantities we offer these packaging options.
               </p>
