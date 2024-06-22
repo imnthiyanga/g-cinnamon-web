@@ -7,9 +7,9 @@ export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div id="hero" className="bg-white">
+    <div id="hero" className="bg-white ">
       <Navbar />
-      <div className="relative">
+      <div className="relative ">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
             <svg
@@ -53,10 +53,11 @@ export default function Hero() {
         </div>
         <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
-            className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
+            className="h-full w-full object-cover lg:aspect-auto"
             src="/img/home.jpg"
             alt=""
           />
+          
         </div>
       </div>
     </div>
