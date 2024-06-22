@@ -194,7 +194,7 @@ function ContactForm() {
             <div className="flex items-center mt-8">
               <FaEnvelope className="text-xl text-black mr-2" />
               <h2 className="text-xl text-gray-900 text-left ">
-                padman@gmail.com
+              cinnamonparadisegroup@gmail.com
               </h2>
             </div>
             <div className="flex items-center mt-8">

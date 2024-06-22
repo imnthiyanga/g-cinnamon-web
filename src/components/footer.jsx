@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const navigation = {
   main: [
-    { name: "Home", href: "home" },
+    { name: "Home", href: "hero" },
     { name: "Process", href: "process" },
     { name: "Our Products", href: "products" },
     { name: "About Us", href: "aboutus" },

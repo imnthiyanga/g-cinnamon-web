@@ -66,7 +66,7 @@ export default function Process() {
     <div id="process" className="bg-white">
       <div
         aria-hidden="true"
-        className="relative"
+        className="relative mt-20"
         style={{
           backgroundImage: "url('/img/process.png')",
           backgroundSize: "cover",
