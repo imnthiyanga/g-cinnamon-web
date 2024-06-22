@@ -4,7 +4,7 @@ const people = [
   {
     name: "Rahal Seekkuarachchi",
     role: "Founder",
-    imageUrl: "/img/man1.jpg",
+    imageUrl: "/img/rahal.jpg",
     bio: "Rahal Seekkuarachchi, a prominent landowner in southern Sri Lanka, has an extensive engineering background and a vision to elevate the Ceylon cinnamon market. Building on his family's legacy of supplying high-quality cinnamon, Rahal now focuses on directly exporting value-added and premium cinnamon. His technical expertise and strategic insight drive Cinnamon Paradise towards innovation and global recognition",
   },
   {
