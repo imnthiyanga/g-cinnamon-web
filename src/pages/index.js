@@ -7,7 +7,6 @@ import Aboutus from "@/components/aboutus";
 import Team from "@/components/Team";
 import Footer from "@/components/footer";
 import ContactForm from "@/components/contactform";
-import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,13 +14,13 @@ export default function Home() {
   return (
     <div className="bg-white">
       
-      <Hero/>
-      <Process/>
-      <Products/>
-      <Aboutus/>
-      <Team/>
-      <ContactForm/>
-      <Footer/>
+      <div id="hero"><Hero/></div>
+    <div id="process"><Process/></div>
+    <div id="products"><Products/></div>
+    <div id="aboutus"><Aboutus/></div>
+    <div id="team"><Team/></div>
+    <div id="contact"><ContactForm/></div>
+    <Footer/>
     </div>
   );
 }
