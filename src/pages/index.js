@@ -7,13 +7,17 @@ import Aboutus from "@/components/aboutus";
 import Team from "@/components/Team";
 import Footer from "@/components/footer";
 import ContactForm from "@/components/contactform";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className="bg-white">
-      
+      <Head> {/* Step 2: Add the Head component */}
+        <title>Cinnamon Paradise</title>
+        <link rel="icon" href="/img/logo.png" /> 
+      </Head>
       <div id="hero"><Hero/></div>
     <div id="process"><Process/></div>
     <div id="products"><Products/></div>

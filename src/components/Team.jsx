@@ -10,7 +10,7 @@ const people = [
   {
     name: "Dihan Madhusankha",
     role: "Co-Founder",
-    imageUrl: "/img/man1.jpg",
+    imageUrl: "/img/dihan.jpg",
     bio: "Dihan Madusankha, an expert in chemical processing with an engineering background, is passionate about enhancing the cinnamon industry. His innovative approach to adding value to cinnamon products ensures they meet the highest quality standards. At Cinnamon Paradise, Dihan's expertise and enthusiasm are key to driving advancements and maintaining superior product quality in the global market.",
   },
   // More people...

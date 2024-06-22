@@ -11,7 +11,7 @@ const navigation = {
   social: [
     {
       name: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/share/d4aV2TdK2HDu8FcC/?mibextid=LQQJ4d",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -45,7 +45,7 @@ const navigation = {
       ),
     },
     {
-      name: "GitHub",
+      name: "LinkedIn",
       href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
