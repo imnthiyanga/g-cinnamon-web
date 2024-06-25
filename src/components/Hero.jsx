@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Navbar from "./Navbar";
+import Link from 'next/link';
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,7 +30,7 @@ export default function Hero() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Pure assense from Sri Lanka&apos;s Lush Lands
                 </p>
-                
+
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="#contact"
@@ -44,8 +45,16 @@ export default function Hero() {
                     Shop Now <span aria-hidden="true">→</span>
                   </a>
                   <p className=" text-sm leading-8 text-gray-400">
-                   For less than 5Kg orders.
+                    For less than 5Kg orders.
                   </p>
+                </div>
+                <div className="pt-5">
+                  <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    Check our Reasearch section.{" "}
+                    <Link href="/research/" className="text-orange-700">
+                      Go to Research Page
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -57,7 +66,6 @@ export default function Hero() {
             src="/img/home.jpg"
             alt=""
           />
-          
         </div>
       </div>
     </div>
