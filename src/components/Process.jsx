@@ -68,7 +68,7 @@ export default function Process() {
         aria-hidden="true"
         className="relative mt-20"
         style={{
-          backgroundImage: "url('/img/process.png')",
+          backgroundImage: "url('/img/process.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
