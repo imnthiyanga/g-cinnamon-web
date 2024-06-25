@@ -47,7 +47,7 @@ export default function Research() {
             Research
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Ceylon cinnamon, often referred to as "true cinnamon," is distinct
+            Ceylon cinnamon, often referred to as &quot;true cinnamon,&quot; is distinct
             from Cassia cinnamon in both physical appearance and chemical
             composition. Derived from the Cinnamomum verum tree, Ceylon cinnamon
             quills are thin and have a soft, light brown color compared to the
