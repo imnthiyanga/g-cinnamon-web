@@ -47,6 +47,15 @@ export default function Hero() {
                    For less than 5Kg orders.
                   </p>
                 </div>
+                <div className="pt-5">
+                <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    Check our Reasearch section.{' '}
+                    <a href="/research" className="whitespace-nowrap font-semibold text-orange-700">
+                      <span className="absolute inset-0" aria-hidden="true" />
+                      Read more <span aria-hidden="true">&rarr;</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
