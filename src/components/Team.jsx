@@ -27,7 +27,7 @@ function Description({ children }) {
       {text}
       {typeof children === 'string' && (
       <button className='text-blue-700' onClick={() => setIsExpanded(!isExpanded)}>
-        {isExpanded ? 'Show Less' : 'More'}
+        {isExpanded ? '...Show Less' : 'More'}
       </button>
     )}
     </div>
@@ -56,7 +56,7 @@ export default function Team() {
           {people.map((person) => (
             <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
               <img
-                className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                className="aspect-[4/5] w-52 flex-none rounded-full object-cover"
                 src={person.imageUrl}
                 alt=""
               />

@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Our Products', href: 'products' },
   { name: 'About Us', href: 'aboutus' },
   { name: 'Contact', href: 'contact' },
+  
 ];
 
 export default function Navbar() {

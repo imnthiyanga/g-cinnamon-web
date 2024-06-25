@@ -7,6 +7,7 @@ import Aboutus from "@/components/aboutus";
 import Team from "@/components/Team";
 import Footer from "@/components/footer";
 import ContactForm from "@/components/contactform";
+import Reseach from "@/components/Research";
 import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -20,6 +21,7 @@ export default function Home() {
       </Head>
       <div id="hero"><Hero/></div>
     <div id="process"><Process/></div>
+    <div id="research"><Reseach/></div>
     <div id="products"><Products/></div>
     <div id="aboutus"><Aboutus/></div>
     <div id="team"><Team/></div>
