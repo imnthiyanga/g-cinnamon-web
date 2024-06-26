@@ -56,7 +56,7 @@ export default function Team() {
           {people.map((person) => (
             <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
               <img
-                className="aspect-[4/5] w-52 flex-none rounded-full object-cover"
+                className="w-52 h-52 flex-none rounded-full object-cover"
                 src={person.imageUrl}
                 alt=""
               />
