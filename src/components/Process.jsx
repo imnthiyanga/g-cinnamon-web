@@ -72,8 +72,7 @@ export default function Process() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
-          height: "30rem", // Adjust the height as needed
+          height: "20rem", // Adjust the height as needed
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-white" />
