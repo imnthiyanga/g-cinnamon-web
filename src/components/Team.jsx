@@ -3,13 +3,13 @@ import { useState } from "react";
 const people = [
   {
     name: "Rahal Seekkuarachchi",
-    role: "Founder",
+    role: "Business Development Manager",
     imageUrl: "/img/rahal.jpg",
     bio: "Rahal Seekkuarachchi, a prominent landowner in southern Sri Lanka, has an extensive engineering background and a vision to elevate the Ceylon cinnamon market. Building on his family's legacy of supplying high-quality cinnamon, Rahal now focuses on directly exporting value-added and premium cinnamon. His technical expertise and strategic insight drive Cinnamon Paradise towards innovation and global recognition",
   },
   {
     name: "Dihan Madhusankha",
-    role: "Co-Founder",
+    role: "Product Manager",
     imageUrl: "/img/dihan.jpg",
     bio: "Dihan Madusankha, an expert in chemical processing with an engineering background, is passionate about enhancing the cinnamon industry. His innovative approach to adding value to cinnamon products ensures they meet the highest quality standards. At Cinnamon Paradise, Dihan's expertise and enthusiasm are key to driving advancements and maintaining superior product quality in the global market.",
   },
@@ -64,10 +64,10 @@ export default function Team() {
                 <h3 className="text-xl font-medium leading-8 tracking-tight text-gray-900">
                   {person.name}
                 </h3>
-                <p className="text-base leading-7 text-gray-600">
+                <p className="text-base leading-7 text-gray-700">
                   {person.role}
                 </p>
-                <div className="mt-6 text-base leading-7 text-gray-600">
+                <div className="mt-3 text-base leading-7 text-gray-500">
                 <Description>{person.bio}</Description>
               </div>
                 

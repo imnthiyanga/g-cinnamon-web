@@ -8,6 +8,86 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.bulk-order-btn {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease; /* Smooth transition for color */
+  color: transparent; /* Initially transparent text */
+}
+
+.bulk-order-btn::before,
+.bulk-order-btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.bulk-order-btn::before {
+  content: "More than 5Kg";
+  color: white; /* Match the text color */
+  opacity: 1; /* Visible by default */
+}
+
+.bulk-order-btn::after {
+  content: "Bulk Orders";
+  color: white; /* Match the text color for the hover state */
+  opacity: 0; /* Hidden by default */
+}
+
+.bulk-order-btn:hover::before {
+  opacity: 0; /* Fade out the "More than 5Kg" text */
+}
+
+.bulk-order-btn:hover::after {
+  opacity: 1; /* Fade in the "Bulk Orders" text */
+}
+.block-order-btn {
+    position: relative;
+    overflow: hidden;
+    color: transparent; /* Ensures the text color transitions smoothly */
+}
+
+.block-order-btn::before,
+.block-order-btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.4s ease; /* Smooth transition for opacity */
+}
+
+.block-order-btn::before {
+    content: "Less than 5Kg";
+    color: white; /* Match the text color */
+    opacity: 1; /* Visible by default */
+}
+
+.block-order-btn::after {
+    content: "Shop Now";
+    color: white; /* Match the text color for the hover state */
+    opacity: 0; /* Hidden by default */
+}
+
+.block-order-btn:hover::before {
+    opacity: 0; /* Fade out the "Less than 5Kg" text */
+}
+
+.block-order-btn:hover::after {
+    opacity: 1; /* Fade in the "Shop Now" text */
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
