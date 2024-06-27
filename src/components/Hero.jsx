@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Navbar from "./Navbar";
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,19 +34,15 @@ export default function Hero() {
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="#contact"
-                    className="rounded-md bg-orange-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="bulk-order-btn rounded-md bg-orange-700 px-20 py-5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
                   >
-                    Bulk Orders
+                   
                   </a>
                   <a
                     href="#products"
-                    className="text-sm font-semibold leading-6 text-gray-900"
+                    className="block-order-btn text-sm font-semibold rounded-md bg-orange-700 px-20 py-5 leading-6 text-white  hover:bg-orange-600 "
                   >
-                    Shop Now <span aria-hidden="true">→</span>
                   </a>
-                  <p className=" text-sm leading-8 text-gray-400">
-                    For less than 5Kg orders.
-                  </p>
                 </div>
                 <div className="pt-5">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">

@@ -1,6 +1,10 @@
 import { FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import React from "react";
+import { useState, useMemo } from "react";
 import emailjs from "@emailjs/browser";
+import Select from "react-select";
+import countryList from "react-select-country-list";
 
 const MyMapComponent = (props) => (
   <iframe
@@ -26,6 +30,7 @@ const handleSubmit = async (e) => {
         from_name: e.target.name.value,
         email: e.target.email.value,
         contact: e.target.contactNo.value,
+        country: e.target.country.value,
         subject: e.target.subject.value,
         message: e.target.message.value,
       },
@@ -48,6 +53,13 @@ const handleSubmit = async (e) => {
 };
 
 function ContactForm() {
+  const [value, setValue] = useState("");
+  const options = useMemo(() => countryList().getData(), []);
+
+  const changeHandler = (value) => {
+    setValue(value);
+  };
+
   return (
     <div
       id="contact"
@@ -101,7 +113,7 @@ function ContactForm() {
                     id="contactNo"
                     autoComplete="tel"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
-                    placeholder="123-456-7890"
+                    placeholder="+94 764 281 060"
                   />
                 </div>
               </div>
@@ -137,6 +149,22 @@ function ContactForm() {
                     type="text"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
                     placeholder="Regarding bulk order of Cinnamon sticks."
+                  />
+                </div>
+              </div>
+              <div>
+                <label
+                  htmlFor="country"
+                  className="block text-sm font-semibold leading-6 text-gray-900 text-left"
+                >
+                  Country
+                </label>
+                <div className="mt-2.5">
+                  <Select
+                    options={options}
+                    value={value}
+                    onChange={changeHandler}
+                    className="block w-full rounded-md text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -191,10 +219,12 @@ function ContactForm() {
                 mapElement={<div style={{ height: `100%` }} />}
               />
             </div>
-            <div className="flex items-center mt-8">
-              <FaEnvelope className="text-xl text-black mr-2" />
-              <h2 className="text-xl text-gray-900 text-left ">
-              cinnamonparadisegroup@gmail.com
+            <div className="group flex items-center mt-8">
+              <MdEmail className="text-xl text-black mr-2" />
+              <h2 className="text-xl text-gray-900 text-left flex-1 min-w-0">
+                <span className="block overflow-visible">
+                  cinnamonparadisegroup@gmail.com
+                </span>
               </h2>
             </div>
             <div className="flex items-center mt-8">

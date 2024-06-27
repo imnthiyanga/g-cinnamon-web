@@ -14,7 +14,7 @@ const features = [
   {
     name: "Cultivation",
     description:
-      "All the plats are cultivated under the standard conditions in Down-South Sri Lanka. Organic fertilizers or standard chemical fertilizers have benn used in standard level",
+      "All the plats are cultivated under the standard conditions in Down-South Sri Lanka. Organic fertilizers or standard chemical fertilizers have benn used in standard level.",
   },
   {
     name: "Harvesting",
