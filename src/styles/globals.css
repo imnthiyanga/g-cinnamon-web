@@ -30,7 +30,7 @@
 }
 
 .bulk-order-btn::before {
-  content: "More than 5Kg";
+  content: "More than 5kg";
   color: white; /* Match the text color */
   opacity: 1; /* Visible by default */
 }
@@ -69,7 +69,7 @@
 }
 
 .block-order-btn::before {
-    content: "Less than 5Kg";
+    content: "Less than 5kg";
     color: white; /* Match the text color */
     opacity: 1; /* Visible by default */
 }
