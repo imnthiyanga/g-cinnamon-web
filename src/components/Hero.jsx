@@ -22,16 +22,16 @@ export default function Hero() {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+            <div className="relative px-6 py-30 sm:py-35 lg:px-8 lg:py-48 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-7xl">
                   CINNAMON PARADISE
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
+                <p className="mt-6 sm-text-lg leading-8 text-gray-600">
                   Pure assense from Sri Lanka&apos;s Lush Lands
                 </p>
 
-                <div className="mt-10 flex items-center gap-x-6">
+                <div className="mt-5 flex items-center gap-x-6">
                   <a
                     href="#contact"
                     className="bulk-order-btn rounded-md bg-orange-700 px-20 py-5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
@@ -44,7 +44,7 @@ export default function Hero() {
                   >
                   </a>
                 </div>
-                <div className="pt-5">
+                <div className="pt-10">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                     Check our Reasearch section.{" "}
                     <Link href="/research/" className="text-orange-700">

@@ -63,7 +63,7 @@ function ContactForm() {
   return (
     <div
       id="contact"
-      className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8"
+      className="relative isolate bg-white px-6 py-15 sm:py-20 lg:px-8"
     >
       <div className="mx-auto max-w-xl lg:max-w-5xl ">
         <div className="flex items-center">
