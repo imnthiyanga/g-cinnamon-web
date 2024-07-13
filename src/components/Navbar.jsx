@@ -22,7 +22,7 @@ export default function Navbar() {
           <nav className="flex items-center justify-between lg:justify-start" aria-label="Global">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Cinnamon Paradise</span>
-              <img alt="Cinnamon Paradise" className="h-14 w-auto mb-2" src="/img/logo.png" />
+              <img alt="Cinnamon Paradise" className="lg:h-14 h-10 w-auto mb-2" src="/img/logo.png" />
             </a>
             <button
               type="button"

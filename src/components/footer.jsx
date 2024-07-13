@@ -92,7 +92,7 @@ export default function Footer() {
                 to={item.href}
                 smooth={true}
                 duration={500}
-                className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                className="cursor-pointer text-sm leading-6 text-gray-600 hover:text-gray-900"
               >
                 {item.name}
               </Link>
@@ -112,7 +112,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; 2024 Hypercube, Inc. All rights reserved.
+          &copy; 2024 Hypercube Consultancy Services. All rights reserved.
         </p>
       </div>
     </footer>
